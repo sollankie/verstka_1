@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+.screen {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+   width: 1100px;
+   margin: auto; 
+}
+.redpart {
+    background-image: url(../img/backround.png);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.topgear {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.CompanyName {
+    color: whitesmoke;
+    font-family: Jazz LET, fantasy;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.Buttons ul {
+    font-family:monospace;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 0px ;
+    margin: 0px;
+    font-size: 20px;
+    color:white;
+}
+li {
+    border: transparent 28px solid;
+    border-radius: 60px;
+
+}
+li:hover {
+    background-color: rgb(1, 1, 71);
+    cursor: pointer;
+}
+.Slogan {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    max-width: 380px;
+    line-height: 45px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.Slogan:nth-child( odd ){
+    color: #130e27;
+}
+.Slogan:nth-child( even ) {
+    color: cornsilk;
+}
+.Aboutus {
+    max-width: 470px;
+    color: cornsilk;
+    padding-bottom: 90px;
+    margin-bottom: 0px;
+    font-family: serif;
+    text-align: left;
+}
+.WhitePart {
+    background-color:white;
+}
+span {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span:nth-child(1) {
+    color:#c82517 ;
+}
+span:nth-child(2){
+    color:#130e27;
+}
+.Icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+    font-size: 20px;
+    padding-top: 50px;
+    width: 1100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+    
+}
+.fa {
+    font-size: 150px;
+    color: #130e27;
+}
+.icontext {
+    max-width: 150px;
+}
+.LittleBluePart {
+    background-color: #130e27 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.TextOurStory {
+    max-width: 44%;
+    color: cornsilk; 
+}
+.buttonstory {
+    color: cornsilk;
+    font-size: 35px;
+    display: flex;
+    justify-content: right;
+    border: 15px transparent solid;
+    
+
+    
+}
+.buttonstory:hover {
+    background-color: #c82517;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.WhitePart2 {
+    background-color: cornsilk;
+}
+.Pricing {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: #130e27;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+.Subscribe {
+    display: flex;
+    justify-content: space-around;
+
+}
+.Starter {
+    border: 0px solid transparent;
+    border-width: 50px;;
+    background-color: white;
+
+}
+.Startertext {
+    text-align: center;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.RED {
+    font-size: 50px;
+    text-align: center;
+    color: #c82517;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+p {
+    text-align: center;
+    line-height: 20px;
+}
+.Signup {
+    border: 1px #130e27 solid;
+    background-color:#130e27;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-bottom-width: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Signup:hover {
+    background-color: #c82517;
+    border: 1px #c82517 solid;
+    border-bottom-width: 5px;
+    cursor: pointer;
+}
+.LastBluePart {
+    background-color: #130e27;
+}
+.Rights {
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: left;
+    color: cornsilk;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 500px;
+}
+
+.CompanyNameBottom {
+    font-size: 40px;
+    text-align: right;
+    color: #c82517 ;
+    font-family: Jazz LET, fantasy;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+.d-flex {
+    display: flex;
+}
+.f-row{
+    flex-direction: row;
+}
+.a-center{
+    align-items: center;
+}
+.j-around{
+    justify-content: space-around;
+}
+.j-between{
+    justify-content: space-between;
+}
